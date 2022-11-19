@@ -1,0 +1,46 @@
+{% extends "layout.html" %} {%block basecontent%}
+<section class="vh-100 home_modal" style="background-color: black">
+  <div
+    class="container h-100"
+    style="display: flex; justify-content: center; align-items: center"
+  >
+    <div class="card text-black" style="border-radius: 25px">
+      <div class="card-body p-md-5">
+        <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">
+          Budget Tracker
+        </p>
+
+        <h4 style="display: flex; align-items: center; justify-content: center">
+          This project is done by: Nitish.S,Akash.E,Rahavan,Gokulnath.G
+        </h4>
+        <div class="parent">
+          <div class="center">
+            <div class="child inline-block-child">
+              <a href="/login"
+                ><button
+                  type="button"
+                  class="btn btn-primary btn-lg"
+                  style="padding-left: 2.5rem; padding-right: 2.5rem"
+                >
+                  Login
+                </button></a
+              ><br />
+            </div>
+            <div class="child inline-block-child">
+              <a href="/register"
+                ><button
+                  type="button"
+                  class="btn btn-primary btn-lg"
+                  style="padding-left: 2.5rem; padding-right: 2.5rem"
+                >
+                  Register
+                </button></a
+              ><br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock basecontent %}
